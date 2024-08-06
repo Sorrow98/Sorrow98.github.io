@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    background-image: url('./SS_Lazio_flag.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    color: #354935;
+    width: 500px;
+    height: 500px;
+}
+
+.def {
+    display: none;
+}
+
+.fade-in {
+    animation: fadeIn 4s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
